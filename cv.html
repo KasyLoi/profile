@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Mohammad Hafidh Fathur Rouf">
+  <meta name="description" content="Curriculum Vitae Mohammad Hafidh Fathur Rouf">
+  <meta property="og:title" content="CV — Mohammad Hafidh Fathur Rouf">
+  <meta property="og:description" content="Curriculum Vitae Mohammad Hafidh Fathur Rouf, mahasiswa STMIK El Rahma.">
+  <meta property="og:type" content="website">
+  <title>CV — Mohammad Hafidh Fathur Rouf</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="cv-wrap">
+  <div class="cv-toolbar">
+    <a class="cv-back" href="index.html?page=profile">← Kembali ke profil</a>
+    <p>CV siap dicetak atau disimpan sebagai PDF.</p>
+    <button class="cv-print-button" type="button" data-print-cv>Cetak / Simpan PDF</button>
+  </div>
+
+  <article class="cv-page">
+    <header class="cv-header">
+      <div>
+        <p class="cv-label">CURRICULUM VITAE</p>
+        <h1>Mohammad Hafidh<br>Fathur Rouf</h1>
+        <p class="cv-title">Mahasiswa STMIK El Rahma</p>
+      </div>
+      <div class="cv-monogram" aria-hidden="true">MH</div>
+    </header>
+
+    <div class="cv-contact" aria-label="Informasi kontak">
+      <a href="mailto:aafid204@gmail.com">aafid204@gmail.com</a>
+      <a href="tel:+6285850830100">085850830100</a>
+      <a href="https://github.com/KasyLoi" target="_blank" rel="noreferrer">github.com/KasyLoi</a>
+    </div>
+
+    <div class="cv-columns">
+      <div class="cv-main-column">
+        <section class="cv-section">
+          <h2>Profil</h2>
+          <p>Mahasiswa STMIK El Rahma yang tertarik pada teknologi komputer dan perkembangannya. Memiliki kemampuan dalam HTML, CSS, PHP, Python, dan SQL, serta sedang mempelajari JavaScript. Berminat mengembangkan kemampuan melalui proyek dan pekerjaan freelance.</p>
+        </section>
+
+        <section class="cv-section">
+          <h2>Riwayat pendidikan</h2>
+          <div class="cv-entry">
+            <div class="cv-entry-heading">
+              <h3>STMIK El Rahma</h3>
+              <span>2026–sekarang</span>
+            </div>
+            <p>Mahasiswa</p>
+          </div>
+          <div class="cv-entry">
+            <div class="cv-entry-heading">
+              <h3>SMK Al-Basthomi Mojosari</h3>
+              <span>2022–2025</span>
+            </div>
+            <p>Pendidikan menengah kejuruan</p>
+          </div>
+          <div class="cv-entry">
+            <div class="cv-entry-heading">
+              <h3>MTsN 5 Nganjuk</h3>
+              <span>2019–2022</span>
+            </div>
+            <p>Pendidikan menengah pertama</p>
+          </div>
+          <div class="cv-entry">
+            <div class="cv-entry-heading">
+              <h3>MI Al-Huda Bonggah Ploso Nganjuk</h3>
+              <span>2013–2019</span>
+            </div>
+            <p>Pendidikan dasar</p>
+          </div>
+        </section>
+      </div>
+
+      <aside class="cv-side-column">
+        <section class="cv-section">
+          <h2>Keahlian</h2>
+          <ul class="cv-skill-list">
+            <li><span>HTML</span><strong>Mampu</strong></li>
+            <li><span>CSS</span><strong>Mampu</strong></li>
+            <li><span>PHP</span><strong>Mampu</strong></li>
+            <li><span>Python</span><strong>Mampu</strong></li>
+            <li><span>SQL</span><strong>Mampu</strong></li>
+            <li><span>JavaScript</span><strong class="skill-beginner">Pemula</strong></li>
+          </ul>
+        </section>
+
+        <section class="cv-section">
+          <h2>Minat karier</h2>
+          <p>Freelance</p>
+        </section>
+      </aside>
+    </div>
+  </article>
+</main>
+<script>
+  document.querySelector("[data-print-cv]").addEventListener("click", () => window.print());
+</script>
+</body>
+</html>
